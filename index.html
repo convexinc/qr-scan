@@ -22,7 +22,7 @@
       if (decodedText === lastScan) return;
       lastScan = decodedText;
 
-      fetch("【ここにGASのURL】", {
+      fetch("https://script.google.com/macros/s/AKfycbw6PYeW7v7atYI-ZM9hlbmzSkUa5tjhH3iLusCMkywFYLQlW3PrIa9CQQ9YkLegle5iZw/exec", {
         method: "POST",
         body: JSON.stringify({
           booth: booth,
